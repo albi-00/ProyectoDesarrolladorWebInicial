@@ -12,6 +12,9 @@
 <div id="contenedor">
    
     <header id="cabecera">
+        <div id="caja0">
+            <img src="logo.png">
+        </div>
         <nav id="menu"> 
            <li> <a href="inicio">inicio</a></li>
            <li> <a href="quienessomos">Quienes somos</a></li>
@@ -22,18 +25,19 @@
 
 <section class="contenido"> 
     <article class="cajas_contenido_indepe">
+        <a class="boton2" href="#">VER GALERIA DE VIANDAS</a>
     </article>
 
     <article class="contenido_final">
         <div class="texto">
-            <a>Las mejores opciones para tu menú diario</a>
+            <a class="textoBody">Las mejores opciones para tu menú diario</a>
         </div>
         <img src="vianda.jpg">
     </article>
 
     <article class="contenido_final">
         <div class="texto">
-            <a>Conoce nuestras opciones veggies</a>
+            <a class="textoBody">Conoce nuestras opciones veggies</a>
         </div>
         <img src="vianda1.jpg">
         
@@ -55,18 +59,20 @@
                 Suscribite para recibir ofertas diarias <b>aquí </b>
             </p>
             <a class="boton" href="#">Suscríbete</a>
+            
+            <script type="text/javascript">
+                var edad=prompt("Ingrese Edad")
+                if(edad>=18){
+                   alert("Bienvenid@! Usted puede suscribirse si lo desea")
+                } else {
+                   alert("Tené en cuenta que no podes suscribirte, debés ser mayor")
+                }
+           </script>
         </div>
     </article>
  
     <article class="contenido_final">
-        <script type="text/javascript">
-            var edad=prompt("ingrese edad")
-            if(edad>=18){
-               alert("buenvenido")
-            } else {
-               alert("debes ser mayor")
-            }
-        </script>
+      
     </article>
 
     <article class="contenido_final">
@@ -75,7 +81,7 @@
 
 <section class="contenido">
     <article class="cajas_contenido_indepe1">
-      <h1>Quienes Somos</h1>
+      <h1 class="textoBody">Quienes Somos</h1>
         <p>Somos una empresa familiar de Resistencia, nuestros inicios se remontan al comienzo de la pandemia...</p>
         <p>Ofrecemos servicios coorporativos, viandas para pequeñas y grandes empresas.</p>
         <p>En estos años, hemos crecido mucho gracias a su apoyo 🤗🤗🤗🤗</p>
@@ -84,9 +90,36 @@
     </article>
     
     <article class="contenido_final">
+        <h2>Nuestro Staff</h2>
+        <div id="caja4"> 
+        <div class="caja3">
+            <img src="persona2.jpg" class="persona">
+            <p class="textoBody">Encinas Matias</p>
+            <p class="textoBody">Gerente General</p>
+        </div>
+        <div class="caja3"> 
+            <img src="persona2.jpg" class="persona">
+            <p class="textoBody">Encinas Ramon</p>
+            <p class="textoBody">Gerente de ventas</p>
+        </div>
+        <div class="caja3">    
+            <img src="persona3.jpg" class="persona">
+            <p class="textoBody">Graciela Fernandez</p>
+            <p class="textoBody">Encargada de Finanzas</p>
+        </div>
+        <div class="caja3">
+             <img src="persona4.jpg" class="persona">
+             <p class="textoBody">Encinas Maria</p>
+             <p class="textoBody">Area de Sistemas</p>
+        </div>
+    </div>
     </article>
-
+   
     <article class="contenido_final">
+ <div id="caja5">
+        <h2 class="h2cv">¿Querés ser parte de esta familia?</h2>
+        <h3>Contanos sobre vos</h3>
+    </div>
     </article>
 </section>
 
