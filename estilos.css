@@ -250,6 +250,11 @@ width: 10%;
 height: 10%;
 }
 
+#logo{
+    width: 200%;
+    height: 500%; 
+ }
+
 @media all and (min-width:600px) and (max-width:1023px){
     #contenedor{
         width: 565px;
@@ -263,8 +268,7 @@ height: 10%;
           height: 140px;
           margin-left: 0px;
           margin-right: 0px;  
-          margin-top: 10px;
-          background: url(fondopeque.jpg);
+          margin-top: 10px; 
       }
       
       #menu{
@@ -413,7 +417,7 @@ height: 10%;
           height: 25px;  
           margin-right: 0px; 
           margin-left: 0px; 
-          margin-top:85px;
+          margin-top:20px;
       }
    
       #menu li a { 
@@ -495,7 +499,7 @@ height: 10%;
 }
 
 .caja1{
-    width: 30%;
+    width: 45%;
     height: 130px; 
     margin-top: 40px;
     border-right: 1px solid rgb(36, 34, 34) ;  
@@ -503,7 +507,7 @@ height: 10%;
 }
 
 .caja2{
-    width: 30%;
+    width: 45%;
     height: 130px; 
     margin-top: 40px;
     border-left: 1px solid rgb(36, 34, 34) ; 
@@ -522,12 +526,67 @@ height: 10%;
     padding-right:15px;
     background-color:#3f3e3b;
     border-color: #181535;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-radius:35px;
     margin-left: 50px;
     float: left; 
 }
  
+ /* 
+.boton2{ 
+    font-size: 10px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#3f3e3b;
+    border-color: #000000; 
+    border-radius:35px;
+    margin-top: 20%;
+    margin-left: 40%;
+    float: right;
+}
+ */ 
+.caja3{
+    width: 50%;
+    height: 50%; 
+    margin-left: -11%;
+    display: inline-block;
+    margin-right: 4%;
+    }
+    
+    #caja4{
+        width: 80%;
+        height: 80%;   
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    
+    #caja5{
+        width: 80%;
+        height: 80%;   
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+     
+    .persona{
+    border-radius: 100%;
+    max-width:30%;
+    max-height: 30%;  
+    border-right: 5px solid rgb(31, 31, 32);  
+    }
+    
+    h2{
+     font-size:70%;
+    }
+    
+    .h2cv, h3{ 
+     font-size:70%;
+    } 
+     
+ .textoBody{
+     font-size:70%;
+}
 
 } /* fin media max 599px */

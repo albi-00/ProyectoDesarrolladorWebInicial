@@ -15,30 +15,32 @@ var parrafo = document.getElementsByTagName('p')
 parrafo[6].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
 parrafo[6].style.color = 'antiquewhite' 
 parrafo[6].style.textAlign = 'center' 
-parrafo[6].style.fontSize = '100%'
+parrafo[6].style.fontSize = '65%'
 
  
 parrafo[7].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
 parrafo[7].style.color = 'antiquewhite' 
 parrafo[7].style.textAlign = 'center' 
-parrafo[7].style.fontSize = '100%'
+parrafo[7].style.fontSize = '65%'
  
 parrafo[8].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
 parrafo[8].style.color = 'antiquewhite'
 parrafo[8].style.textAlign = 'center' 
-parrafo[8].style.fontSize = '100%'
+parrafo[8].style.fontSize = '65%'
 
 
 parrafo[9].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
 parrafo[9].style.color = 'antiquewhite'
 parrafo[9].style.textAlign = 'center' 
-parrafo[9].style.fontSize = '100%'
+parrafo[9].style.fontSize = '65%'
 
 parrafo[10].style.fontStyle = 'italic' 
 parrafo[10].style.color = 'antiquewhite'
 parrafo[10].style.textAlign = 'right' 
-parrafo[10].style.fontSize = '150%'
+parrafo[10].style.fontSize = '70%'
 parrafo[10].style.marginRight = '20%'
+
+
 
 
 var listas = document.getElementsByClassName('contenido')
