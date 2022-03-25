@@ -53,7 +53,7 @@
             <script type="text/javascript" src="unidad7.js">
 
             </script>
-           <a class="boton" href="#">Conocé más</a>
+           <a class="boton" href="#conocemas">Conocé más</a>
         </div>
         
         <div class="caja2"> 
@@ -85,7 +85,36 @@
 <section id="menuid" class="contenido2">
     <div id="cajamenu" class="container-fluid">
         <div class="row">
-            <div id="col1" class="col-md-4" ></div>
+            
+            <div id="col1" class="col-md-4">
+                <script>
+                    document.write("<p class='letr2'>" + nombre + ", indicanos tu email para recibir los menus que hemos preparado especialmente para vos</p>");
+                </script>
+                <div id="conocemas" class="caja6">
+                    <form>
+                        <div class="row mb-3">
+                          <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputNombre">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputApellido" class="col-sm-2 col-form-label">Apellido</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="inputApellido">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                          </div>
+                        <button type="submit" class="boton3">Registrate</button>
+                      </form>
+                </div>
+            </div>
+
             <div id="col2" class="col-md-4" ></div>     
             <div id="col3" class="col-md-4" ></div>
         <!--total deben ser 12 columnas-->
@@ -168,6 +197,26 @@
 
 </div>
 <!--js propio-->
+<script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+    
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+    
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()</script>
 <script type="text/javascript" src="unidad8.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
