@@ -350,10 +350,10 @@ height: 10%;
         font-size: 15px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: antiquewhite; 
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
         background-color:#3f3e3b;
         border-color: #181535;
         border-width: 3px;
@@ -361,7 +361,7 @@ height: 10%;
         border-radius:35px;
         margin-left: 100px;
         float: left; 
-        margin-left: 50px;
+        margin-left: 60px;
     }
      
     .letr2{
@@ -369,7 +369,15 @@ height: 10%;
         color: antiquewhite; 
         font-size: 15px;
     }
+    .accordion-item {
+        background-color: #6e6c7c;
+    }
 
+    .accordion-button {  
+    background: url(fondo.jpg); 
+    padding: 0rem 0.4rem;
+    } 
+    
 @media all and (min-width:600px) and (max-width:1023px){
     #contenedor{
         width: 565px;
