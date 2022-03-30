@@ -60,7 +60,7 @@
             <p class="letraJS">
                 Suscribite para recibir ofertas diarias <b>aquí </b>
             </p>
-            <a class="boton" href="#">Suscríbete</a>
+            <a class="boton" href="#suscribete">Suscríbete</a>
             
             <script type="text/javascript">
                 var edad=prompt("Ingrese su edad")
@@ -88,7 +88,7 @@
             
             <div id="col1" class="col-md-4">
                 <script>
-                    document.write("<p class='letr2'>" + nombre + ", indicanos tu email para recibir los menus que hemos preparado especialmente para vos</p>");
+                    document.write("<h2 class='letraJS'>" + nombre + ", indicanos tu email para recibir los menus que hemos preparado especialmente para vos</h2>");
                 </script>
                 <div id="conocemas" class="caja6">
                     <form>
@@ -110,13 +110,54 @@
                               <input type="email" class="form-control" id="inputEmail3">
                             </div>
                           </div>
-                        <button type="submit" class="boton3">Registrate</button>
+                        <button type="submit" class="boton3">Recibir</button>
                       </form>
                 </div>
             </div>
 
-            <div id="col2" class="col-md-4" ></div>     
-            <div id="col3" class="col-md-4" ></div>
+            <div id="col2" class="col-md-4" >
+            <div id="caja7">
+                <h2 class="letraJS">
+                    Suscribite para recibir diariamente nuestras ofertas y novedades!
+                </h2>
+                <img id="senal" src="senal.png">
+            </div>
+            </div>   
+            
+            
+            <div id="col3" class="col-md-4" >
+                <div id="suscribete" class="caja6">
+                    <form>
+                        <div class="row mb-3">
+                          <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputNombre">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputApellido" class="col-sm-2 col-form-label">Apellido</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="inputApellido">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputcumple" class="col-sm-2 col-form-label">Fecha de nacimiento</label>
+                            <div class="col-sm-10">
+                              <input type="date" class="form-control" id="inputcumple">
+                            </div>
+                          </div>
+                        <button type="submit" class="boton3">Registrate</button>
+                      </form>
+                </div>
+
+
+            </div>
         <!--total deben ser 12 columnas-->
         <!--md es medium hacia arriba-->
         </div>
