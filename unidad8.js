@@ -12,37 +12,28 @@ titulo[0].style.marginTop = '5%'
  
  
 var parrafo = document.getElementsByTagName('p')  
-parrafo[6].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
-parrafo[6].style.color = 'antiquewhite' 
-parrafo[6].style.textAlign = 'center' 
-parrafo[6].style.fontSize = '85%'
-parrafo[6].style.marginTop = '20px'
+parrafo[12].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
+parrafo[12].style.color = 'antiquewhite'
+parrafo[12].style.textAlign = 'center' 
+parrafo[12].style.fontSize = '85%'
+parrafo[12].style.marginTop = '20px'
+
+parrafo[13].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
+parrafo[13].style.color = 'antiquewhite'
+parrafo[13].style.textAlign = 'center' 
+parrafo[13].style.fontSize = '85%'
+parrafo[13].style.marginTop = '20px'
  
-parrafo[7].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
-parrafo[7].style.color = 'antiquewhite' 
-parrafo[7].style.textAlign = 'center' 
-parrafo[7].style.fontSize = '85%'
+parrafo[14].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
+parrafo[14].style.color = 'antiquewhite' 
+parrafo[14].style.textAlign = 'center' 
+parrafo[14].style.fontSize = '85%'
  
-parrafo[8].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
-parrafo[8].style.color = 'antiquewhite'
-parrafo[8].style.textAlign = 'center' 
-parrafo[8].style.fontSize = '85%'
-
-
-parrafo[9].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
-parrafo[9].style.color = 'antiquewhite'
-parrafo[9].style.textAlign = 'center' 
-parrafo[9].style.fontSize = '85%'
-
-parrafo[10].style.fontStyle = 'italic' 
-parrafo[10].style.color = 'antiquewhite'
-parrafo[10].style.textAlign = 'right' 
-parrafo[10].style.fontSize = '85%'
-parrafo[10].style.marginRight = '20%'
-
-
-
-
+parrafo[15].style.fontFamily =' Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif' 
+parrafo[15].style.color = 'antiquewhite'
+parrafo[15].style.textAlign = 'center' 
+parrafo[15].style.fontSize = '85%'
+ 
 var listas = document.getElementsByClassName('contenido')
 listas[0].style.background='url(gris2.jpg)' 
 listas[1].style.background='url(gris2.jpg)' 

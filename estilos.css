@@ -378,7 +378,57 @@ height: 10%;
     background: url(fondo.jpg); 
     padding: 0rem 0.4rem;
     } 
-    
+    .caja8{
+        width:440px ;
+        height: 470px; 
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .carru{ 
+            background: url(manchi.png)30%;
+            color: rgb(68, 65, 65);
+            border-radius: 80%; 
+            font: oblique bold 120% cursive;
+            font-size: 30px;
+        }
+        .carru2{ 
+            background: url(manchi.png)30%;
+            color: rgb(68, 65, 65);
+            border-radius: 80%; 
+            font: oblique bold 120% cursive;
+            font-size: 15px;
+        }
+        .carru3{ 
+            background: url(manchi.png)100%;
+            color: rgb(68, 65, 65);
+            border-radius: 80%; 
+            font: oblique bold 120% cursive;
+            font-size: 30px;
+        }
+        .g-3, .gy-3 {
+            --bs-gutter-y: -0.1rem;
+        }
+        
+        .boton4 {
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: antiquewhite;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #3f3e3b;
+            border-color: #181535;
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 35px;
+            margin-left: 100px;
+            float: left;
+            margin-left: 115px;
+        }
+
 @media all and (min-width:600px) and (max-width:1023px){
     #contenedor{
         width: 565px;
