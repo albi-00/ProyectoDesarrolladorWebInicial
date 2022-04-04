@@ -1,5 +1,5 @@
 var caja= document.getElementById('contenedor')
-caja.style.background='url(gris2.jpg)' 
+caja.style.backgroundColor='orange' 
 
 
 var titulo = document.getElementsByTagName('h1')
@@ -35,10 +35,8 @@ parrafo[15].style.textAlign = 'center'
 parrafo[15].style.fontSize = '85%'
  
 var listas = document.getElementsByClassName('contenido')
-listas[0].style.background='url(gris2.jpg)' 
-listas[1].style.background='url(gris2.jpg)' 
-listas[2].style.background='url(gris2.jpg)' 
+listas[0].style.backgroundColor='#b8bcc4' 
+listas[1].style.backgroundColor='#b8bcc4' 
+listas[2].style.backgroundColor='#b8bcc4' 
 
-var listas2 = document.getElementsByClassName('contenido_final')
-listas2[4].style.background='url(fondoblanco.jpg)'  
-listas2[5].style.background='url(gris.jpg)'  
+ 

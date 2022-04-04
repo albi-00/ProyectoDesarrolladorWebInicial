@@ -1,6 +1,6 @@
  
 var nombre = prompt("Introduzca su nombre:","");
-document.write("<p class='letraJS'>" + nombre + ", en base a tus gustos hemos preparado menús para vos</p>");
+document.write("<p class='carru4'>" + nombre + ", en base a tus gustos hemos preparado menús para vos</p>");
 
 var comida = prompt("Introduzca su comida favorita:","");
 document.write("<p class='letraJS'> ⫸  Comida favorita: " + comida + "</p>");
