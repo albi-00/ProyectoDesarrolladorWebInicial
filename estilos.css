@@ -138,6 +138,7 @@
     font: oblique bold 120% cursive;
     color: rgb(68, 65, 65);  
     text-decoration: none;
+    margin-left: 10px;
 }
 
  .textoBody{
@@ -496,10 +497,10 @@ height: 10%;
             margin-left: -10px;
         }
 
-        #cajatitulo {
-            width: 500px;
+        .cajatitulo {
+            width: 400px;
             height: 60px;
-            margin-left: 260px;
+            margin-left: 250px;
         }
         .cajasubtitulo{
             width: 500px;
@@ -685,15 +686,15 @@ height: 10%;
     }
     
     form{
-        width: 289px;
-        height: 450px; 
+        width: 289px; 
         margin-left: 70px;
      }
      .boton3{ 
         font-size: 10px; 
         margin-left: 0px;
         float: left;  
-    } 
+    }
+
  #caja8 {
     margin-left: 30px;
     width: 410px;
@@ -711,17 +712,15 @@ height: 10%;
     width: 275px;
     margin-top: 15px;
 }
-dl, ol, ul {
-    margin-left: -16px;
-}
+
  .textoBody4 {
     font: oblique bold 80% cursive; 
 }
 .boton6 {
-    margin-left: 148px;
-    margin-top: -125px;
+    margin-left: 132px;
+    margin-top: -8px;
     font: oblique bold 70% cursive;
-}
+} 
 .texto a {
     font: oblique bold 100% cursive; 
     margin-left: 0px;
@@ -744,13 +743,24 @@ dl, ol, ul {
     width: 100px;
 }
 .boton3 {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 14px;
     float: left;
 }
 .carru {
     font: oblique bold 100% cursive;
     font-size: 20px;
+}
+
+.cajatitulo { 
+    margin-left: -2px;
+}
+.cajasubtitulo { 
+    margin-left: 110px;
+}
+
+dl, ol, ul {
+    margin-left: -255px;
 }
 /*sin control*/
  
@@ -771,6 +781,7 @@ margin-bottom: 2px;
  
 #caja13{ 
  width: 300px;
+ margin-top: 20px;
 }
 
 #caja13 row>* {
@@ -780,8 +791,8 @@ margin-bottom: 2px;
     
  .boton4 {
     font: oblique bold 50% cursive;
-    margin-left: 215px;
-    margin-top: 40px;
+    margin-left: 64px;
+    margin-top: 6px;
 }
 }
 /* fin media max 1023px */
@@ -915,18 +926,20 @@ margin-bottom: 2px;
         margin-top: 15px;
     }
 
-.caja1{
-    width: 45%;
-    height: 130px; 
-    margin-top: 10px;
-    border-right: 1px solid rgb(36, 34, 34) ;  
-    display: inline-block;
-}
+    .caja1 {
+        width: 45%;
+        height: 130px;
+        margin-left: 5px;
+        margin-top: 35px;
+        border-right: 1px solid rgb(36, 34, 34);
+        display: inline-block;
+    }
 
 .caja2{
     width: 45%;
     height: 130px; 
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 35px;
     border-left: 1px solid rgb(36, 34, 34) ; 
     float: right;
     
@@ -1094,17 +1107,18 @@ dl, ol, ul {
 }
 
 
-.boton6{ 
-    font: oblique bold 50% cursive; 
-    padding-top:2px;
-    padding-bottom:2px;
-    padding-left:4px;
-    padding-right:4px;   
-    border-width: 1px; 
-    border-radius:35px;
-    margin-left: 10px; 
-    margin-top: -95px;
- }
+.boton6 {
+    font: oblique bold 30% cursive;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-width: 1px;
+    border-radius: 35px;
+    margin-left: 257px;
+    margin-top: -6px;
+    width: 86px;
+}
 
  .carru4{  
     font: oblique bold 30% cursive; 
@@ -1155,8 +1169,26 @@ margin-bottom: 2px;
     
  .boton4 {
     font: oblique bold 50% cursive;
-    margin-left: 215px;
-    margin-top: 40px;
+    margin-left: 240px;
+    margin-top: 63px;
 }
- 
+
+.cajatitulo {
+    width: 208px;
+    height: 47px;
+    margin-left: 58px;
+}
+.cajasubtitulo {
+    width: 130px;
+    height: 14px;
+    margin-left: 115px;
+}
+
+dl, ol, ul {
+    margin-top: 3px;
+    margin-left: -240px;
+    margin-bottom: 2px;
+}
+
+
 }

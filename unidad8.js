@@ -48,3 +48,16 @@ listas[0].style.backgroundColor='#b8bcc4'
 listas[1].style.backgroundColor='#b8bcc4' 
 listas[2].style.backgroundColor='#b8bcc4' 
  
+var formu = document.getElementsByClassName('form-control')  
+
+
+formu[5].style.marginTop='8px'
+formu[5].style.marginLeft='4px'
+formu[5].style.width='200px'
+formu[5].style.height='0px'
+
+formu[6].style.marginTop='8px'
+formu[6].style.marginLeft='-1px' 
+formu[6].style.width='200px'
+formu[6].style.height='0px'
+ 
