@@ -126,15 +126,13 @@
     margin:auto
     
 }
- 
-.texto{
-    width: 350px;
+.texto {
+    width: 410px;
     left: 50px;
     margin-top: 20px;
-   margin-left: 73px; 
-   margin-right: 15px; 
-   margin-bottom: 10px;
- 
+    margin-left: 28px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
 .texto a{
     font: oblique bold 120% cursive;
@@ -176,14 +174,14 @@
 .caja1{
     width: 460px;
     height: 180px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-right: 2px solid rgb(36, 34, 34) ;  
     display: inline-block;
 }
 .caja2{
     width: 460px;
     height: 180px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-left: 2px solid rgb(36, 34, 34) ; 
     float: right;
     
@@ -224,25 +222,23 @@
     margin-left: 40%;
     float: left; 
 }
-
-.boton6{
-    text-decoration:none; 
+.boton6 {
+    text-decoration: none;
     font: oblique bold 90% cursive;
     color: rgb(255, 255, 255);
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:30px;
-    padding-right:30px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-color: #ffffff;
     border-width: 1.5px;
     border-style: solid;
-    border-radius:35px;
-    margin-left: 350px;
-    float: left; 
-    margin-top: 40px;
-    background: -webkit-linear-gradient(left, #bda0a0, rgba(72, 75, 77, 0.699) 60%, rgb(70, 70, 70)) ;
+    border-radius: 35px;
+    margin-left: 319px;
+    float: left;
+    margin-top: -5px;
+    background: -webkit-linear-gradient(left, #bda0a0, rgba(72, 75, 77, 0.699) 60%, rgb(70, 70, 70));
 }
-
 .caja3{
 width: 50%;
 height: 50%; 
@@ -345,12 +341,14 @@ height: 10%;
     float: right;
     margin-right: -12px; 
 }
-#caja8{ 
-    margin-left: 170px;
+#caja8 {
+    margin-left: 0px;
     width: 649px;
     height: 250px;
-    margin-top: 10px; 
+    margin-top: 30px;
 }
+ 
+
 #senal{ 
     max-width:80%;
     max-height: 80%;   
@@ -407,13 +405,7 @@ height: 10%;
         background: -webkit-linear-gradient(left, #9b9b9b, rgba(72, 75, 77, 0.699) 60%, rgb(70, 70, 70)) ;
     padding: 0rem 0.4rem;
     } 
-    .caja8{
-        width:440px ;
-        height: 470px; 
-        margin-left: 10px;
-        margin-right: 10px;
-        }
-
+   
         .carru{ 
             background: url(manchi.png) 30%;
             color: rgb(68, 65, 65);
@@ -428,13 +420,18 @@ height: 10%;
             font: oblique bold 120% cursive;
             font-size: 15px;
         }
-        .carru3{ 
+        .carru3 {
             background: url(manchi.png) 100%;
             color: rgb(68, 65, 65);
-            border-radius: 80%; 
+            border-radius: 80%;
             font: oblique bold 120% cursive;
-            font-size: 25px;
+            font-size: 20px;
+            width: 450px;
+            margin-bottom: 5px;
+            margin-left: 0px;
+            margin-top: 10px;
         }
+  
         .carru4{ 
             background:url(gris.jpg) 100%;
             color: rgb(68, 65, 65); 
@@ -469,24 +466,7 @@ height: 10%;
         .accordion-body { 
             color: rgb(255, 255, 255);
         }
-
-        .textoBody3{ 
-            color: rgb(255, 255, 255);
-            font: oblique bold 120% cursive;
-            font-size: 20px;
-            text-align: center;
-            margin: 2px;
-            width: 600px; 
-        }
-        .textoBody4{ 
-            color: rgb(255, 255, 255);
-            font: oblique bold 120% cursive;
-            font-size: 15px;
-            text-align: left;
-            margin: 2px;
-            width: 600px; 
-        }
-
+ 
         .textoBody3 {
             font: oblique bold 100% cursive;
             color: rgb(255, 255, 255);
@@ -495,9 +475,37 @@ height: 10%;
             background-color: #727271;
             border-radius: 30%;
             width: 456px;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        
+        
+        .textoBody4 {
+            color: rgb(255, 255, 255);
+            font: oblique bold 120% cursive;
+            font-size: 15px;
+            text-align: left;
+            margin-left: 274px;
+            width: 445px;
         }
 
-     
+        dl, ol, ul {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            margin-top: 15px;
+            margin-left: -10px;
+        }
+
+        #cajatitulo {
+            width: 500px;
+            height: 60px;
+            margin-left: 260px;
+        }
+        .cajasubtitulo{
+            width: 500px;
+            height: 20px;
+            margin-left: 240px;
+        }
 
 @media all and (min-width:600px) and (max-width:1023px){
     #contenedor{
@@ -599,19 +607,20 @@ height: 10%;
         margin-bottom: 10px;
       }
 
-      .letraJS{
+      .letraJS {
         font: oblique bold 120% cursive;
         color: rgb(255, 255, 255);
-        font-size: 60%; 
+        font-size: 60%;
         margin-left: 5px;
-        margin-right: 5px;  
+        margin-right: 5px;
         text-align: center;
+        margin-top: 10px;
     }
     
     .caja1{
         width: 49%;
         height: 130px; 
-        margin-top: 40px;
+        margin-top: 20px;
         border-right: 1px solid rgb(36, 34, 34) ;  
         display: inline-block;
     }
@@ -619,28 +628,28 @@ height: 10%;
     .caja2{
         width: 49%;
         height: 130px; 
-        margin-top: 40px;
+        margin-top: 20px;
         border-left: 1px solid rgb(36, 34, 34) ; 
         float: right;
         
     }
     
-    .boton{
-        text-decoration:none; 
+    .boton {
+        text-decoration: none;
         font: oblique bold 90% cursive;
         color: rgb(255, 255, 255);
-        padding-top:5px;
-        padding-bottom:5px;
-        padding-left:15px;
-        padding-right:15px;
-        background-color:#3f3e3b;
-        border-color: #181535;
-        border-width: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #3f3e3b;
+        border-color: #ffffff;
+        border-width: 1px;
         border-style: solid;
-        border-radius:35px;
-        margin-left: 100px;
-        float: left;  
-       margin-top: 15px;
+        border-radius: 35px;
+        margin-left: 81px;
+        float: left;
+        margin-top: 10px;
     }
      
     #menuid{
@@ -659,7 +668,7 @@ height: 10%;
         height: 1300px;     
     }
  
-    /*nuevo*/
+   
      
      .caja6{ 
         width: 186px;
@@ -684,9 +693,96 @@ height: 10%;
         font-size: 10px; 
         margin-left: 0px;
         float: left;  
-    }
+    } 
+ #caja8 {
+    margin-left: 30px;
+    width: 410px;
+    height: 301px;
+    margin-top: 15px;
+}
+.carru3 {
+    font: oblique bold 100% cursive;
+    width: 400px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+} 
+.textoBody3 {
+    font: oblique bold 80% cursive;
+    width: 275px;
+    margin-top: 15px;
+}
+dl, ol, ul {
+    margin-left: -16px;
+}
+ .textoBody4 {
+    font: oblique bold 80% cursive; 
+}
+.boton6 {
+    margin-left: 148px;
+    margin-top: -125px;
+    font: oblique bold 70% cursive;
+}
+.texto a {
+    font: oblique bold 100% cursive; 
+    margin-left: 0px;
+}
+ .carru4 {
+    font: oblique bold 60% cursive;
+}
+.accordion-button {
+    height: 80px;
+    margin-top: 2px;
+}
+.accordion-body { 
+    font: oblique bold 60% cursive;
+}
+.form-control {
+    font-size: 0.5rem;
+    line-height: 0.2;
+    margin-top: 28px;
+    margin-left: -110px;
+    width: 100px;
+}
+.boton3 {
+    font-size: 10px;
+    margin-left: 14px;
+    float: left;
+}
+.carru {
+    font: oblique bold 100% cursive;
+    font-size: 20px;
+}
+/*sin control*/
  
-      
+.col-form-label {
+    font: oblique bold 40% cursive;  
+margin-left: 5px;
+margin-right: 5px;
+margin-top: -2px;
+margin-bottom: 2px;
+}
+
+
+ 
+.form-label {
+    width: 350px;
+    font-size: 13px;
+}
+ 
+#caja13{ 
+ width: 300px;
+}
+
+#caja13 row>* {
+    flex-shrink: 0;
+    width: 120.5%;
+} 
+    
+ .boton4 {
+    font: oblique bold 50% cursive;
+    margin-left: 215px;
+    margin-top: 40px;
+}
 }
 /* fin media max 1023px */
 
@@ -700,20 +796,20 @@ height: 10%;
       }
       
       #cabecera{
-          width: 95.5%; 
+          width: 100%; 
           height: 120px;
           margin-left: 0px;
           margin-right:0px;
           margin-top: 5px;  
-          background: url(fondo.jpg); 
+          background: url("fondonuevo.jpg");  
       }
       
       #menu{
-          width: 70%;
+          width: 100%;
           height: 25px;  
           margin-right: 0px; 
           margin-left: 0px; 
-          margin-top:20px;
+          margin-top:65px;
       }
    
       #menu li a { 
@@ -721,7 +817,14 @@ height: 10%;
           margin-left: 5px;
           font-size:65%;
       }
-      
+
+      #logo{
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 100%;
+        height: 300%;
+     }
+    
       .divpie ul{
           padding-inline-start: 20px;
           margin: 10px;
@@ -801,19 +904,21 @@ height: 10%;
        
       }
     
-.letraJS{
-    font: oblique bold 120% cursive;
-    color: rgb(255, 255, 255);
-    font-size: 45%; 
-    margin-left: 5px;
-    margin-right: 5px;  
-    text-align: center;
-}
+      .letraJS {
+        font: oblique bold 120% cursive;
+        color: rgb(255, 255, 255);
+        font-size: 60%;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: 15px;
+    }
 
 .caja1{
     width: 45%;
     height: 130px; 
-    margin-top: 40px;
+    margin-top: 10px;
     border-right: 1px solid rgb(36, 34, 34) ;  
     display: inline-block;
 }
@@ -821,7 +926,7 @@ height: 10%;
 .caja2{
     width: 45%;
     height: 130px; 
-    margin-top: 40px;
+    margin-top: 10px;
     border-left: 1px solid rgb(36, 34, 34) ; 
     float: right;
     
@@ -836,8 +941,8 @@ height: 10%;
     padding-left:15px;
     padding-right:15px;
     background-color:#3f3e3b;
-    border-color: #181535;
-    border-width: 2px;
+    border-color: #ffffff;
+    border-width: 1px;
     border-style: solid;
     border-radius:35px;
     margin-left: 50px;
@@ -871,7 +976,7 @@ height: 10%;
         width: 80%;
         height: 80%;   
         margin-left: 20%;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     
     #caja5{
@@ -905,13 +1010,13 @@ height: 10%;
 
   /*nuevo*/
      
-  .caja6{ 
+  .caja6 {
     width: 120px;
     height: 200px;
-    margin: -50px; 
-    margin-top: 100px;
- }
- 
+    margin-left: -69px;
+    margin-top: 92px;
+  }
+
  #caja7{ 
     width: 120px;
     height: 200px;
@@ -920,7 +1025,7 @@ height: 10%;
 }
 
 form{
-    width: 50px;
+    width: 70px;
     height: 50px;
     margin-left: 70px;
  }
@@ -932,7 +1037,7 @@ form{
     padding-right: 10px;
     margin-top: -10px;
     font-size: 10px; 
-    margin-left: -5px;
+    margin-left: 15px;
     float: left;  
 }
 #senal{ 
@@ -952,17 +1057,106 @@ form{
         width: 200px;
         margin-top: -10px;
  }
- 
- .form-control { 
-    padding: 0.2rem 2.75rem;
-    font-size: 0.2rem;
-    line-height: 0.2;
-    margin-top: -10px;
-    margin-left: -15px;
- }
-
+  
  .letraJS{
 margin-top: 10px;
  }
 
-} /* fin media max 599px */
+ .carru3{  
+    font: oblique bold 70% cursive;   
+    width: 300px; 
+    margin-bottom: 2px;
+}
+
+#caja8{ 
+    margin-left: 5px;
+    width: 120px;
+    height: 200px;
+    margin-top: 5px; 
+}
+.textoBody3 {
+    font: oblique bold 60% cursive;
+    width: 150px;
+    margin-top: -1px;
+}
+.textoBody4{  
+    font: oblique bold 50% cursive;  
+    width: 300px; 
+}
+
+dl, ol, ul {
+    margin-top: 2px; 
+}
+
+.texto a {
+    font: oblique bold 70% cursive; 
+    text-align: center;
+}
+
+
+.boton6{ 
+    font: oblique bold 50% cursive; 
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:4px;
+    padding-right:4px;   
+    border-width: 1px; 
+    border-radius:35px;
+    margin-left: 10px; 
+    margin-top: -95px;
+ }
+
+ .carru4{  
+    font: oblique bold 30% cursive; 
+}
+.accordion-body {
+    padding: 1rem 1.25rem;
+    font: oblique bold 30% cursive; 
+}
+.accordion-button { 
+    height: 40px;
+    margin-top: -5px;
+}
+.col-form-label {
+    font: oblique bold 40% cursive;  
+margin-left: 5px;
+margin-right: 5px;
+margin-top: -2px;
+margin-bottom: 2px;
+}
+
+.carru{   
+    font: oblique bold 70% cursive;
+    font-size: 10px 
+}
+ 
+.form-label {
+    width: 350px;
+    font-size: 13px;
+}
+
+.form-control {
+    font-size: 0.5rem;
+    line-height: 0.2;
+    margin-top: -3px;
+    margin-left: 0px;
+    
+    width: 100px;
+}
+#caja13{ 
+ width: 300px;
+}
+
+#caja13 row>* {
+    flex-shrink: 0;
+    width: 120.5%;
+}
+ /* fin media max 599px */
+    
+ .boton4 {
+    font: oblique bold 50% cursive;
+    margin-left: 215px;
+    margin-top: 40px;
+}
+ 
+}
